@@ -1,0 +1,21 @@
+[
+    {
+        "id": "1",
+        "name": "Patamilka",
+        "price": "3.39",
+        "img":"./img/patamilka.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Milka Oréo",
+        "price": "1.10",
+        "img":"./img/milkaOreo.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Tablette Riz Croustillant",
+        "price": "1.05",
+        "img":"./img/tabletteRizCroust.jpg"
+    }
+
+]

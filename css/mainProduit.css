@@ -1,0 +1,69 @@
+#container-product{
+    display: flex;
+    justify-content: center;
+}
+
+
+#container-product div{
+    width: 20vw;
+    height: 28vw;
+    background-color: #684fa3;
+    margin: 5vh 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+}
+
+
+#container-product div figure{
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+
+#container-product div figure figcaption{
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 1vh;
+}
+
+
+#container-product div p{
+    font-size: 1.8em;
+    margin: 1.6em 0 0.5em 0;
+    color: white;
+}
+
+
+#container-product div button{
+    margin-top: 15px;
+    background-color: #8e7cb8;
+    width: 6vw;
+    height: 3vw;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#container-product div button span{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.4em;
+    font-size: large;
+    color: white;
+}
+
+
+#container-product div button:hover{
+    background-color: #9c87cc;
+}
+
+
+#container-product div button:active{
+    box-shadow: inset -2px -2px 3px rgba(0, 0, 0, 0.548),
+                inset 2px 2px 3px rgba(0, 0, 0, 0.548);
+}
